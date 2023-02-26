@@ -11329,12 +11329,17 @@ p.lead {
 }
 
 .paperauthor {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 .paperconf {
     font-size: 1.05rem;
+    font-weight: 400;
+}
+
+.paperconf {
+    font-size: 1.15rem;
     font-weight: 400;
 }
 
