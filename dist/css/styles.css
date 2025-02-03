@@ -492,6 +492,7 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  color: Black;
 }
 
 .display-1 {
@@ -11324,22 +11325,18 @@ p.lead {
 }
 
 .papertitle {
-    font-size: 1.75rem;
-    font-weight: 800;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: Black;
 }
 
 .paperauthor {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
 .paperconf {
-    font-size: 1.05rem;
-    font-weight: 400;
-}
-
-.paperconf {
-    font-size: 1.15rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
