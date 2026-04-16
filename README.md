@@ -1,71 +1,76 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/theme/resume/)
 
-[Resume](https://startbootstrap.com/theme/resume/) is a resume and CV theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+
+![Github Forks](https://img.shields.io/github/forks/senli1073/academic-homepage-template?style=flat)
+![Github Stars](https://img.shields.io/github/stars/senli1073/academic-homepage-template?style=flat)
+![License](https://img.shields.io/github/license/senli1073/academic-homepage-template)
+![Last Commit](https://img.shields.io/github/last-commit/senli1073/academic-homepage-template)
+
+# A simple Github Pages template for personal academic websites.
 
 ## Preview
+[![Screenshot of the Website](https://raw.githubusercontent.com/senli1073/academic-homepage-template/main/screenshot_full.png)](https://senli1073.github.io/)
 
-[![Resume Preview](https://assets.startbootstrap.com/img/screenshots/themes/resume.png)](https://startbootstrap.github.io/startbootstrap-resume/)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-resume/)**
+## Introduction
 
-## Status
+This personal academic website template is based on [startbootstrap](https://github.com/StartBootstrap/startbootstrap-new-age).
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-resume/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-resume/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-resume)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-resume/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-resume?type=dev)
+The template is designed to integrate Markdown files as content input.  There's no need to compile the webpage before deployment.  Upon loading, the Markdown files are automatically parsed and embedded into the page.
 
-## Download and Installation
+This template supports LaTeX formula input. You can use `$...$` and `\(...\)` as delimiters for inline-math, or use `$$...$$` and `\[...\]` as delimiters for display-math. Macros such as `\ref{...}`, `\eqref{...}`, and `\begin{equation}...\end{equation}` are also supported. See [MathJax](https://docs.mathjax.org/en/latest/index.html) for more details.
 
-To begin using this template, choose one of the following options to get started:
+:milky_way: Demo: https://senli1073.github.io/
 
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/resume/)
-- Install using npm: `npm i startbootstrap-resume`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-resume.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-resume)
 
-## Usage
+## Getting Start
+### 1. Fork this repository
+The repository name should be `<username>.github.io`, which will also be your website's URL.
 
-### Basic Usage
 
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+### 2. Edit page content
 
-### Advanced Usage
+(1) Go to the folder where you want to store your project, and clone the new repository:
+```
+git clone https://github.com/<username>/<username>.github.io.git
+```
+The directory structure is as follows:
 
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
+```.
+.
+├── contents
+└── static
+    ├── assets
+    │   └── img
+    ├── css
+    └── js
+```
 
-#### npm Scripts
+(2) Modify the content of each section, which corresponds to `contents/*.md`.
 
-- `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-- `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-- `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-- `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-- `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-- `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-- `npm run start:debug` runs the project in debug mode
-- `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
+(3) Adjust the title, copyright information, and other text of the website in `contents/config.yml`
 
-You must have npm installed in order to use this build environment.
+(4) Replace background image and photo with new ones for your web pages in `static/assets/img/`
 
-## Bugs and Issues
+(5) Push it: 
+```
+git commit -am 'init'
+git push
+```
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-resume/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/theme/resume/).
+### 3. Setup
+(1) Under your repository name, click `Settings`.
 
-## About
+(2) In the "Code and automation" section of the sidebar, click `Pages`.
 
-Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+(3) Under "Build and deployment", under "Source", select Deploy from a branch. Then, use the branch dropdown menu and select a publishing source.
 
-- <https://startbootstrap.com>
-- <https://twitter.com/SBootstrap>
+### 4. Enjoy
 
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+Fire up a browser and go to `https://<username>.github.io`
 
-- <https://davidmiller.io>
-- <https://twitter.com/davidmillerhere>
-- <https://github.com/davidtmiller>
+> Note that it can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub.
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Copyright and License
+## License
 
-Copyright 2013-2022 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE) license.
+Copyright Sen Li, 2023-2025. Licensed under an MIT license. You can copy and mess with this template.
