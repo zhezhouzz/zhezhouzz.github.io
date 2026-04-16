@@ -2,7 +2,7 @@ const SITE_CONFIG = {
   "title": "Zhe Zhou's Homepage",
   "page-top-title": "Zhe Zhou",
   "top-section-bg-text": "Programming Languages & Formal Methods",
-  "home-subtitle": "Zhe Zhou (周喆)&ensp;|&ensp;Postdoctoral Researcher",
+  "home-subtitle": "Zhe Zhou&ensp;|&ensp;周喆",
   "copyright-text": "&copy; Zhe Zhou 2025-2026. All Rights Reserved."
 };
 
@@ -20,7 +20,7 @@ Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/resume-20260330.pdf) a
 #### Contact
 
 - **Email:** zhou956[at]purdue.edu
-- **Office:** LWSN 3133 (#55), Purdue University, West Lafayette, IN 47907
+- **Office:** LWSN 3154S, Purdue University, West Lafayette, IN 47907
 
 #### Education
 
