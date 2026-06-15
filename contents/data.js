@@ -1,13 +1,13 @@
 const SITE_CONFIG = {
-  "title": "Zhe Zhou's Homepage",
-  "page-top-title": "Zhe Zhou",
-  "top-section-bg-text": "Programming Languages & Formal Methods",
-  "home-subtitle": "Zhe Zhou&ensp;|&ensp;周喆",
-  "copyright-text": "&copy; Zhe Zhou 2025-2026. All Rights Reserved."
+   "title": "Zhe Zhou's Homepage",
+   "page-top-title": "Zhe Zhou",
+   "top-section-bg-text": "Programming Languages & Formal Methods",
+   "home-subtitle": "Zhe Zhou&ensp;|&ensp;周喆",
+   "copyright-text": "&copy; Zhe Zhou 2025-2026. All Rights Reserved."
 };
 
 const SITE_SECTIONS = {
-  "home": `[![zhezhouzz](https://img.shields.io/badge/zhezhouzz-github-blue?logo=github)](https://github.com/zhezhouzz)
+   "home": `[![zhezhouzz](https://img.shields.io/badge/zhezhouzz-github-blue?logo=github)](https://github.com/zhezhouzz)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-blue?logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=cLoaC9kAAAAJ&hl=en&oi=sra)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/zhe-zhou-56b66a238/)
 
@@ -38,7 +38,24 @@ Software Engineer, Megvii (Face++), Jul 2017 – Jul 2018.
 Formal Methods; Formal Verification; Property-Based Testing; Programming Languages; Distributed Systems; AI for Formal Methods
 `,
 
-  "publications": `#### Conference Papers
+  // Venue badge colors (reuse the matching span style when adding papers):
+  //   Journal:    purple — background:#f3e8fd; color:#7c3aed
+  //   Conference: blue   — background:#e8f0fe; color:#1a73e8
+  //   Workshop:   green  — background:#f0f4e8; color:#4a7c2f
+  //
+  // Paper status & awards (on a new line after DOI / Full Version links):
+  //   Accepted or Conditional Accept — gray note while not yet formally published; remove once published:
+  //     <br><span style="color:gray;">Accepted</span>
+  //     <br><span style="color:gray;">Conditional Accept</span>
+  //   Awards — add on a new line when applicable (keep after publication):
+  //     <br><span style="color:red;font-weight:bold;">Distinguished Paper Award</span>
+  //     <br><span style="color:tomato;font-weight:bold;">Distinguished Artifact Award</span>
+  "publications": `#### Peer-Reviewed Papers
+
+1. <span style="background:#f3e8fd;color:#7c3aed;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">JFP 2026</span> **Polymorphic Coverage Types.**<br>
+   **Zhe Zhou**, Benjamin Delaware, and Suresh Jagannathan.<br>
+   *Journal of Functional Programming*, 36(12), 2026. [[DOI]](https://doi.org/10.46298/jfp.17755) [[Full Version]](https://arxiv.org/pdf/2304.03393)<br>
+   <span style="color:gray;">Accepted</span>
 
 1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2026</span> **Trace-Guided Synthesis of Effectful Test Generators.**<br>
    **Zhe Zhou**, Ankush Desai, Benjamin Delaware, and Suresh Jagannathan.<br>
@@ -78,15 +95,12 @@ Formal Methods; Formal Verification; Property-Based Testing; Programming Languag
 
 #### Pre-prints
 
-1. **Polymorphic Coverage Types.** Under Review.<br>
-   **Zhe Zhou**, Benjamin Delaware, and Suresh Jagannathan.
-
 1. **Adaptive Proof Refinement with LLM-Guided Strategy Selection.** Under Review.<br>
    Minghai Lu, **Zhe Zhou**, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.<br>
    [[Preprint]](https://arxiv.org/abs/2510.25103)
 `,
 
-  "awards": `- Maurice H. Halstead Memorial Award, Purdue University, 2025.
+   "awards": `- Maurice H. Halstead Memorial Award, Purdue University, 2025.
 
 - Distinguished Paper Award, PLDI 2023.
 
