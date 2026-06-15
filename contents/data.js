@@ -38,19 +38,19 @@ Software Engineer, Megvii (Face++), Jul 2017 – Jul 2018.
 Formal Methods; Formal Verification; Property-Based Testing; Programming Languages; Distributed Systems; AI for Formal Methods
 `,
 
-  // Venue badge colors (reuse the matching span style when adding papers):
-  //   Journal:    purple — background:#f3e8fd; color:#7c3aed
-  //   Conference: blue   — background:#e8f0fe; color:#1a73e8
-  //   Workshop:   green  — background:#f0f4e8; color:#4a7c2f
-  //
-  // Paper status & awards (on a new line after DOI / Full Version links):
-  //   Accepted or Conditional Accept — gray note while not yet formally published; remove once published:
-  //     <br><span style="color:gray;">Accepted</span>
-  //     <br><span style="color:gray;">Conditional Accept</span>
-  //   Awards — add on a new line when applicable (keep after publication):
-  //     <br><span style="color:red;font-weight:bold;">Distinguished Paper Award</span>
-  //     <br><span style="color:tomato;font-weight:bold;">Distinguished Artifact Award</span>
-  "publications": `#### Peer-Reviewed Papers
+   // Venue badge colors (reuse the matching span style when adding papers):
+   //   Journal:    purple — background:#f3e8fd; color:#7c3aed
+   //   Conference: blue   — background:#e8f0fe; color:#1a73e8
+   //   Workshop:   green  — background:#f0f4e8; color:#4a7c2f
+   //
+   // Paper status & awards (on a new line after DOI / Full Version links):
+   //   Accepted or Conditional Accept — gray note while not yet formally published; remove once published:
+   //     <br><span style="color:gray;">Accepted</span>
+   //     <br><span style="color:gray;">Conditional Accept</span>
+   //   Awards — add on a new line when applicable (keep after publication):
+   //     <br><span style="color:red;font-weight:bold;">Distinguished Paper Award</span>
+   //     <br><span style="color:tomato;font-weight:bold;">Distinguished Artifact Award</span>
+   "publications": `#### Journal & Conference Papers
 
 1. <span style="background:#f3e8fd;color:#7c3aed;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">JFP 2026</span> **Polymorphic Coverage Types.**<br>
    **Zhe Zhou**, Benjamin Delaware, and Suresh Jagannathan.<br>
