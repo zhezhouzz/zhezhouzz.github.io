@@ -44,8 +44,9 @@ Formal Methods; Formal Verification; Property-Based Testing; Programming Languag
    //   Workshop:   green  — background:#f0f4e8; color:#4a7c2f
    //
    // Paper status & awards (on a new line after DOI / Full Version links):
-   //   Accepted or Conditional Accept — gray note while not yet formally published; remove once published:
-   //     <br><span style="color:gray;">Accepted</span>
+   //   To appear — gray note while not yet formally published; remove once published:
+   //     <br><span style="color:gray;">To appear</span>
+   //   Conditional Accept — gray note while not yet formally published; remove once published:
    //     <br><span style="color:gray;">Conditional Accept</span>
    //   Awards — add on a new line when applicable (keep after publication):
    //     <br><span style="color:red;font-weight:bold;">Distinguished Paper Award</span>
@@ -54,11 +55,16 @@ Formal Methods; Formal Verification; Property-Based Testing; Programming Languag
    //     <br><span style="color:gray;">Extended version of *Title* (VENUE YEAR).</span>
    "publications": `#### Journal & Conference Papers
 
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">ASE 2026</span> **Adaptive Proof Refinement with LLM-Guided Strategy Selection.**<br>
+   Minghai Lu, **Zhe Zhou**, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.<br>
+   *IEEE/ACM International Conference on Automated Software Engineering*, 2026. [[Full Version]](https://arxiv.org/abs/2510.25103)<br>
+   <span style="color:gray;">To appear</span>
+
 1. <span style="background:#f3e8fd;color:#7c3aed;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">JFP 2026</span> **Polymorphic Coverage Types.**<br>
    **Zhe Zhou**, Benjamin Delaware, and Suresh Jagannathan.<br>
    *Journal of Functional Programming*, 36(12), 2026. [[DOI]](https://doi.org/10.46298/jfp.17755) [[Full Version]](https://arxiv.org/pdf/2304.03393)<br>
    <span style="color:gray;">Extended version of *Covering All the Bases: Type-Based Verification of Test Input Generators* (PLDI 2023).</span><br>
-   <span style="color:gray;">Accepted</span>
+   <span style="color:gray;">To appear</span>
 
 1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2026</span> **Trace-Guided Synthesis of Effectful Test Generators.**<br>
    **Zhe Zhou**, Ankush Desai, Benjamin Delaware, and Suresh Jagannathan.<br>
@@ -95,12 +101,6 @@ Formal Methods; Formal Verification; Property-Based Testing; Programming Languag
 1. <span style="background:#f0f4e8;color:#4a7c2f;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">Incorrectness 2024</span> **Type-Based Incorrectness Reasoning.**<br>
    **Zhe Zhou**, Ashish Mishra, Benjamin Delaware, and Suresh Jagannathan.<br>
    *Formal Methods for Incorrectness*, 2024.
-
-#### Pre-prints
-
-1. **Adaptive Proof Refinement with LLM-Guided Strategy Selection.** Under Review.<br>
-   Minghai Lu, **Zhe Zhou**, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.<br>
-   [[Preprint]](https://arxiv.org/abs/2510.25103)
 `,
 
    "awards": `- Maurice H. Halstead Memorial Award, Purdue University, 2025.
