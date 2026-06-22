@@ -43,7 +43,7 @@ Formal Methods; Formal Verification; Property-Based Testing; Programming Languag
    //   Conference: blue   — background:#e8f0fe; color:#1a73e8
    //   Workshop:   green  — background:#f0f4e8; color:#4a7c2f
    //
-   // Paper status & awards (on a new line after DOI / Full Version links):
+   // Paper status & awards (on a new line after authors):
    //   To appear — gray note while not yet formally published; remove once published:
    //     <br><span style="color:gray;">To appear</span>
    //   Conditional Accept — gray note while not yet formally published; remove once published:
@@ -53,53 +53,49 @@ Formal Methods; Formal Verification; Property-Based Testing; Programming Languag
    //     <br><span style="color:tomato;font-weight:bold;">Distinguished Artifact Award</span>
    //   Extended journal version — gray note (keep after publication):
    //     <br><span style="color:gray;">Extended version of *Title* (VENUE YEAR).</span>
+   //
+   // Entry format:
+   //   Line 1: badge + title + links (DOI / Full Version / Artifact / Talk)
+   //   Line 2: authors — highlight your name with <span class="author-self">Zhe Zhou</span>
    "publications": `#### Journal & Conference Papers
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">ASE 2026</span> **Adaptive Proof Refinement with LLM-Guided Strategy Selection.**<br>
-   Minghai Lu, **Zhe Zhou**, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.<br>
-   *IEEE/ACM International Conference on Automated Software Engineering*, 2026. [[Full Version]](https://arxiv.org/abs/2510.25103)<br>
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">ASE 2026</span> **Adaptive Proof Refinement with LLM-Guided Strategy Selection.** [[Full Version]](https://arxiv.org/abs/2510.25103)<br>
+   Minghai Lu, <span class="author-self">Zhe Zhou</span>, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.<br>
    <span style="color:gray;">To appear</span>
 
-1. <span style="background:#f3e8fd;color:#7c3aed;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">JFP 2026</span> **Polymorphic Coverage Types.**<br>
-   **Zhe Zhou**, Benjamin Delaware, and Suresh Jagannathan.<br>
-   *Journal of Functional Programming*, 36(12), 2026. [[DOI]](https://doi.org/10.46298/jfp.17755) [[Full Version]](https://arxiv.org/pdf/2304.03393)<br>
+1. <span style="background:#f3e8fd;color:#7c3aed;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">JFP 2026</span> **Polymorphic Coverage Types.** [[DOI]](https://doi.org/10.46298/jfp.17755) [[Full Version]](https://arxiv.org/pdf/2304.03393)<br>
+   <span class="author-self">Zhe Zhou</span>, Benjamin Delaware, and Suresh Jagannathan.<br>
    <span style="color:gray;">Extended version of *Covering All the Bases: Type-Based Verification of Test Input Generators* (PLDI 2023).</span><br>
    <span style="color:gray;">To appear</span>
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2026</span> **Trace-Guided Synthesis of Effectful Test Generators.**<br>
-   **Zhe Zhou**, Ankush Desai, Benjamin Delaware, and Suresh Jagannathan.<br>
-   *ACM SIGPLAN Conference on Programming Language Design and Implementation*, 2026. [[DOI]](https://doi.org/10.1145/3808264) [[Full Version]](https://arxiv.org/abs/2604.04345) [[Artifact]](https://zenodo.org/records/19076511)
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2026</span> **Trace-Guided Synthesis of Effectful Test Generators.** [[DOI]](https://doi.org/10.1145/3808264) [[Full Version]](https://arxiv.org/abs/2604.04345) [[Artifact]](https://zenodo.org/records/19076511)<br>
+   <span class="author-self">Zhe Zhou</span>, Ankush Desai, Benjamin Delaware, and Suresh Jagannathan.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">OOPSLA 2025</span> **We've Got You Covered: Type-Guided Repair of Incomplete Input Generators.**<br>
-   Patrick LaFontaine, **Zhe Zhou**, Ashish Mishra, Suresh Jagannathan, and Benjamin Delaware.<br>
-   *ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications*, 2025. [[DOI]](https://dl.acm.org/doi/10.1145/3763158) [[Full Version]](https://arxiv.org/abs/2504.06421) [[Artifact]](https://zenodo.org/records/15761808)
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">OOPSLA 2025</span> **We've Got You Covered: Type-Guided Repair of Incomplete Input Generators.** [[DOI]](https://dl.acm.org/doi/10.1145/3763158) [[Full Version]](https://arxiv.org/abs/2504.06421) [[Artifact]](https://zenodo.org/records/15761808)<br>
+   Patrick LaFontaine, <span class="author-self">Zhe Zhou</span>, Ashish Mishra, Suresh Jagannathan, and Benjamin Delaware.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">POPL 2025</span> **Derivative-Guided Symbolic Execution.**<br>
-   Yongwei Yuan, **Zhe Zhou**, Julia Belyakova, and Suresh Jagannathan.<br>
-   *Proceedings of the ACM on Programming Languages (POPL)*, 2025. [[DOI]](https://dl.acm.org/doi/10.1145/3704886) [[Full Version]](https://arxiv.org/pdf/2411.02716) [[Artifact]](https://zenodo.org/records/13800040)
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">POPL 2025</span> **Derivative-Guided Symbolic Execution.** [[DOI]](https://dl.acm.org/doi/10.1145/3704886) [[Full Version]](https://arxiv.org/pdf/2411.02716) [[Artifact]](https://zenodo.org/records/13800040)<br>
+   Yongwei Yuan, <span class="author-self">Zhe Zhou</span>, Julia Belyakova, and Suresh Jagannathan.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2024</span> **A HAT Trick: Automatically Verifying Representation Invariants Using Symbolic Finite Automata.**<br>
-   **Zhe Zhou**, Qianchuan Ye, Benjamin Delaware, and Suresh Jagannathan.<br>
-   *ACM SIGPLAN Conference on Programming Language Design and Implementation*, 2024. [[DOI]](https://doi.org/10.1145/3656433) [[Full Version]](https://arxiv.org/pdf/2404.01484.pdf) [[Artifact]](https://doi.org/10.5281/zenodo.10806686)
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2024</span> **A HAT Trick: Automatically Verifying Representation Invariants Using Symbolic Finite Automata.** [[DOI]](https://doi.org/10.1145/3656433) [[Full Version]](https://arxiv.org/pdf/2404.01484.pdf) [[Artifact]](https://doi.org/10.5281/zenodo.10806686)<br>
+   <span class="author-self">Zhe Zhou</span>, Qianchuan Ye, Benjamin Delaware, and Suresh Jagannathan.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2023</span> **Covering All the Bases: Type-Based Verification of Test Input Generators.**<br>
-   **Zhe Zhou**, Ashish Mishra, Benjamin Delaware, and Suresh Jagannathan.<br>
-   *ACM SIGPLAN Conference on Programming Language Design and Implementation*, 2023. [[DOI]](https://doi.org/10.1145/3591271) [[Full Version]](https://arxiv.org/pdf/2304.03393.pdf) [[Artifact]](https://doi.org/10.5281/zenodo.7811004)<br>
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2023</span> **Covering All the Bases: Type-Based Verification of Test Input Generators.** [[DOI]](https://doi.org/10.1145/3591271) [[Full Version]](https://arxiv.org/pdf/2304.03393.pdf) [[Artifact]](https://doi.org/10.5281/zenodo.7811004)<br>
+   <span class="author-self">Zhe Zhou</span>, Ashish Mishra, Benjamin Delaware, and Suresh Jagannathan.<br>
    <span style="color:red;font-weight:bold;">Distinguished Paper Award</span>
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">OOPSLA 2021</span> **Data-Driven Abductive Inference of Library Specifications.**<br>
-   **Zhe Zhou**, Robert Dickerson, Benjamin Delaware, and Suresh Jagannathan.<br>
-   *ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications*, 2021. [[DOI]](https://dl.acm.org/doi/10.1145/3485493) [[Full Version]](https://arxiv.org/pdf/2108.04783.pdf) [[Artifact]](https://dl.acm.org/do/10.5281/zenodo.5130646/full) [[Talk]](https://youtu.be/x4i9VHMbSOU)<br>
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">OOPSLA 2021</span> **Data-Driven Abductive Inference of Library Specifications.** [[DOI]](https://dl.acm.org/doi/10.1145/3485493) [[Full Version]](https://arxiv.org/pdf/2108.04783.pdf) [[Artifact]](https://dl.acm.org/do/10.5281/zenodo.5130646/full) [[Talk]](https://youtu.be/x4i9VHMbSOU)<br>
+   <span class="author-self">Zhe Zhou</span>, Robert Dickerson, Benjamin Delaware, and Suresh Jagannathan.<br>
    <span style="color:tomato;font-weight:bold;">Distinguished Artifact Award</span>
 
 #### Workshop Papers
 
 1. <span style="background:#f0f4e8;color:#4a7c2f;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">TPSA 2025</span> **From Traces to Program Incorrectness: A Type-Theoretic Approach.**<br>
-   Yongwei Yuan, **Zhe Zhou**, Julia Belyakova, Benjamin Delaware, and Suresh Jagannathan.<br>
+   Yongwei Yuan, <span class="author-self">Zhe Zhou</span>, Julia Belyakova, Benjamin Delaware, and Suresh Jagannathan.<br>
    *Theory and Practice of Static Analysis*, 2025.
 
 1. <span style="background:#f0f4e8;color:#4a7c2f;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">Incorrectness 2024</span> **Type-Based Incorrectness Reasoning.**<br>
-   **Zhe Zhou**, Ashish Mishra, Benjamin Delaware, and Suresh Jagannathan.<br>
+   <span class="author-self">Zhe Zhou</span>, Ashish Mishra, Benjamin Delaware, and Suresh Jagannathan.<br>
    *Formal Methods for Incorrectness*, 2024.
 `,
 

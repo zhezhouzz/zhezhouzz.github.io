@@ -54,6 +54,11 @@ section .main-body{
     line-height: clamp(1.5rem, 3.5vw, 2.0rem);
 }
 
+section .main-body .author-self {
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
