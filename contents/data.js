@@ -15,7 +15,7 @@ In Fall 2026, I will join the [Institute of Software](https://cs.pku.edu.cn/info
 
 I am looking for motivated Ph.D. students interested in formal methods, programming languages, AI for proof, and property-based testing. Prospective students are warmly encouraged to contact me.
 
-My research focuses on formal methods, programming languages, AI for proof, and property-based testing. I develop language-based and automated reasoning techniques for building reliable software and for making formal proofs and verification more scalable. My current work explores how AI tools, especially large language models, can assist proof development while preserving the rigor of formal methods.
+My research focuses on formal methods, programming languages, AI for proof, and property-based testing. My current work follows three main threads. The first develops new verification techniques, including under-approximated styles of verification, trace-based verification, and other type-based verification methods. The second explores AI for program verification, with an emphasis on repository-level verification of large-scale systems software such as operating systems, distributed systems, and software written in Rust and C. The third studies how to make property-based testing more realistic, automated, and intelligent, especially through better support for test generators.
 
 Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/Zhe_CV_2026_08.pdf) and [research statement](https://github.com/zhezhouzz/CV/blob/main/research_statement-zhe.pdf).
 
