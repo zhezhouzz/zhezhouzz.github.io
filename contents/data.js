@@ -15,7 +15,7 @@ In Fall 2026, I will join the [Institute of Software](https://cs.pku.edu.cn/info
 
 I am looking for motivated Ph.D. students interested in formal methods, programming languages, AI for proof, and property-based testing. Prospective students are warmly encouraged to contact me.
 
-My research focuses on formal methods, programming languages, AI for proof, and property-based testing. My current work follows three main threads. The first develops new verification techniques, including under-approximated styles of verification, trace-based verification, and other type-based verification methods [7,6,5,3,2]. The second explores AI for program verification, with an emphasis on repository-level verification of large-scale systems software such as operating systems, distributed systems, and software written in Rust and C [8,1]. The third studies how to make property-based testing more realistic, automated, and intelligent, especially through better support for test generators [7,4,3,2].
+My research focuses on formal methods, programming languages, AI for proof, and property-based testing. My current work follows three main threads. The first develops new verification techniques, including under-approximated styles of verification, trace-based verification, and other type-based verification methods<sup>[<a href="#pub-7">7</a>,<a href="#pub-6">6</a>,<a href="#pub-5">5</a>,<a href="#pub-3">3</a>,<a href="#pub-2">2</a>]</sup>. The second explores AI for program verification, with an emphasis on repository-level verification of large-scale systems software such as operating systems, distributed systems, and software written in Rust and C<sup>[<a href="#pub-8">8</a>,<a href="#pub-1">1</a>]</sup>. The third studies how to make property-based testing more realistic, automated, and intelligent, especially through better support for test generators<sup>[<a href="#pub-7">7</a>,<a href="#pub-4">4</a>,<a href="#pub-3">3</a>,<a href="#pub-2">2</a>]</sup>.
 
 Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/Zhe_CV_2026_08.pdf).
 
@@ -63,30 +63,30 @@ Formal Methods; Programming Languages; AI for Proof; Property-Based Testing
 
 \\* denotes corresponding author.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">ASE 2026</span> **Adaptive Proof Refinement with LLM-Guided Strategy Selection.** [[DOI]](https://doi.org/10.1145/3832783.3834382) [[Full Version]](https://arxiv.org/abs/2510.25103)<br>
+1. <span id="pub-1" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">ASE 2026</span> **Adaptive Proof Refinement with LLM-Guided Strategy Selection.** [[DOI]](https://doi.org/10.1145/3832783.3834382) [[Full Version]](https://arxiv.org/abs/2510.25103)<br>
    Minghai Lu, <span class="author-self">Zhe Zhou*</span>, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.
 
-1. <span style="background:#f3e8fd;color:#7c3aed;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">JFP 2026</span> **Polymorphic Coverage Types.** [[DOI]](https://doi.org/10.46298/jfp.17755) [[Full Version]](https://arxiv.org/pdf/2304.03393)<br>
+1. <span id="pub-2" style="background:#f3e8fd;color:#7c3aed;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">JFP 2026</span> **Polymorphic Coverage Types.** [[DOI]](https://doi.org/10.46298/jfp.17755) [[Full Version]](https://arxiv.org/pdf/2304.03393)<br>
    <span class="author-self">Zhe Zhou</span>, Ashish Mishra, Benjamin Delaware, and Suresh Jagannathan.<br>
    <span style="color:gray;">Extended version of *Covering All the Bases: Type-Based Verification of Test Input Generators* (PLDI 2023).</span>
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2026</span> **Trace-Guided Synthesis of Effectful Test Generators.** [[DOI]](https://doi.org/10.1145/3808264) [[Full Version]](https://arxiv.org/abs/2604.04345) [[Artifact]](https://zenodo.org/records/19076511)<br>
+1. <span id="pub-3" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2026</span> **Trace-Guided Synthesis of Effectful Test Generators.** [[DOI]](https://doi.org/10.1145/3808264) [[Full Version]](https://arxiv.org/abs/2604.04345) [[Artifact]](https://zenodo.org/records/19076511)<br>
    <span class="author-self">Zhe Zhou</span>, Ankush Desai, Benjamin Delaware, and Suresh Jagannathan.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">OOPSLA 2025</span> **We've Got You Covered: Type-Guided Repair of Incomplete Input Generators.** [[DOI]](https://dl.acm.org/doi/10.1145/3763158) [[Full Version]](https://arxiv.org/abs/2504.06421) [[Artifact]](https://zenodo.org/records/15761808)<br>
+1. <span id="pub-4" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">OOPSLA 2025</span> **We've Got You Covered: Type-Guided Repair of Incomplete Input Generators.** [[DOI]](https://dl.acm.org/doi/10.1145/3763158) [[Full Version]](https://arxiv.org/abs/2504.06421) [[Artifact]](https://zenodo.org/records/15761808)<br>
    Patrick LaFontaine, <span class="author-self">Zhe Zhou</span>, Ashish Mishra, Suresh Jagannathan, and Benjamin Delaware.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">POPL 2025</span> **Derivative-Guided Symbolic Execution.** [[DOI]](https://dl.acm.org/doi/10.1145/3704886) [[Full Version]](https://arxiv.org/pdf/2411.02716) [[Artifact]](https://zenodo.org/records/13800040)<br>
+1. <span id="pub-5" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">POPL 2025</span> **Derivative-Guided Symbolic Execution.** [[DOI]](https://dl.acm.org/doi/10.1145/3704886) [[Full Version]](https://arxiv.org/pdf/2411.02716) [[Artifact]](https://zenodo.org/records/13800040)<br>
    Yongwei Yuan, <span class="author-self">Zhe Zhou</span>, Julia Belyakova, and Suresh Jagannathan.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2024</span> **A HAT Trick: Automatically Verifying Representation Invariants Using Symbolic Finite Automata.** [[DOI]](https://doi.org/10.1145/3656433) [[Full Version]](https://arxiv.org/pdf/2404.01484.pdf) [[Artifact]](https://doi.org/10.5281/zenodo.10806686)<br>
+1. <span id="pub-6" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2024</span> **A HAT Trick: Automatically Verifying Representation Invariants Using Symbolic Finite Automata.** [[DOI]](https://doi.org/10.1145/3656433) [[Full Version]](https://arxiv.org/pdf/2404.01484.pdf) [[Artifact]](https://doi.org/10.5281/zenodo.10806686)<br>
    <span class="author-self">Zhe Zhou</span>, Qianchuan Ye, Benjamin Delaware, and Suresh Jagannathan.
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2023</span> **Covering All the Bases: Type-Based Verification of Test Input Generators.** [[DOI]](https://doi.org/10.1145/3591271) [[Full Version]](https://arxiv.org/pdf/2304.03393.pdf) [[Artifact]](https://doi.org/10.5281/zenodo.7811004)<br>
+1. <span id="pub-7" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2023</span> **Covering All the Bases: Type-Based Verification of Test Input Generators.** [[DOI]](https://doi.org/10.1145/3591271) [[Full Version]](https://arxiv.org/pdf/2304.03393.pdf) [[Artifact]](https://doi.org/10.5281/zenodo.7811004)<br>
    <span class="author-self">Zhe Zhou</span>, Ashish Mishra, Benjamin Delaware, and Suresh Jagannathan.<br>
    <span style="color:red;font-weight:bold;">Distinguished Paper Award</span>
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">OOPSLA 2021</span> **Data-Driven Abductive Inference of Library Specifications.** [[DOI]](https://dl.acm.org/doi/10.1145/3485493) [[Full Version]](https://arxiv.org/pdf/2108.04783.pdf) [[Artifact]](https://dl.acm.org/do/10.5281/zenodo.5130646/full) [[Talk]](https://youtu.be/x4i9VHMbSOU)<br>
+1. <span id="pub-8" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">OOPSLA 2021</span> **Data-Driven Abductive Inference of Library Specifications.** [[DOI]](https://dl.acm.org/doi/10.1145/3485493) [[Full Version]](https://arxiv.org/pdf/2108.04783.pdf) [[Artifact]](https://dl.acm.org/do/10.5281/zenodo.5130646/full) [[Talk]](https://youtu.be/x4i9VHMbSOU)<br>
    <span class="author-self">Zhe Zhou</span>, Robert Dickerson, Benjamin Delaware, and Suresh Jagannathan.<br>
    <span style="color:tomato;font-weight:bold;">Distinguished Artifact Award</span>
 
