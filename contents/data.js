@@ -11,16 +11,18 @@ const SITE_SECTIONS = {
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-blue?logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=cLoaC9kAAAAJ&hl=en&oi=sra)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/zhe-zhou-56b66a238/)
 
-I am a postdoctoral researcher at Purdue University, working with [Prof. Suresh Jagannathan](https://www.cs.purdue.edu/homes/suresh). I received my Ph.D. in Computer Science from Purdue University, where I was advised by [Prof. Suresh Jagannathan](https://www.cs.purdue.edu/homes/suresh) and [Prof. Benjamin Delaware](https://www.cs.purdue.edu/homes/bendy/). Prior to my doctoral studies, I worked as a software engineer at Megvii (Face++) from 2017 to 2018. I earned my bachelor's degree from Peking University in 2017, where I was advised by [Prof. Guangyu Sun](https://gsunpku.github.io/).
+In Fall 2026, I will join the [Institute of Software](https://cs.pku.edu.cn/info/1106/1476.htm), [School of Computer Science](http://cs.pku.edu.cn/English/Home.htm), [Peking University](http://english.pku.edu.cn/) as an Assistant Professor. Before joining Peking University, I was a postdoctoral researcher at Purdue University, working with [Prof. Suresh Jagannathan](https://www.cs.purdue.edu/homes/suresh). I received my Ph.D. in Computer Science from Purdue University, where I was advised by [Prof. Suresh Jagannathan](https://www.cs.purdue.edu/homes/suresh) and [Prof. Benjamin Delaware](https://www.cs.purdue.edu/homes/bendy/). Prior to my doctoral studies, I worked as a software engineer at Megvii (Face++) from 2017 to 2018. I earned my bachelor's degree from Peking University in 2017, where I was advised by [Prof. Guangyu Sun](https://gsunpku.github.io/).
 
-My research focuses on formal methods, with particular on formal verification and property-based testing for complex systems software. I develop automated verification techniques to establish deep semantic correctness guarantees for complex systems software---beyond basic crash safety or memory safety. My current work explores how AI tools (e.g., LLMs) can strengthen automated verification and complicate property (e.g., liveness and reachability property) reasoning for distributed systems and concurrent programs.
+I am looking for motivated Ph.D. students interested in formal methods, programming languages, AI for proof, and property-based testing. Prospective students are warmly encouraged to contact me.
 
-Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/resume-20260330.pdf) and [research statement](https://github.com/zhezhouzz/CV/blob/main/research_statement-zhe.pdf).
+My research focuses on formal methods, programming languages, AI for proof, and property-based testing. I develop language-based and automated reasoning techniques for building reliable software and for making formal proofs and verification more scalable. My current work explores how AI tools, especially large language models, can assist proof development while preserving the rigor of formal methods.
+
+Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/Zhe_CV_2026_08.pdf) and [research statement](https://github.com/zhezhouzz/CV/blob/main/research_statement-zhe.pdf).
 
 #### Contact
 
 - **Email:** zhou956[at]purdue.edu
-- **Office:** LWSN 3154S, Purdue University, West Lafayette, IN 47907
+- **Office:** TBD, Peking University
 
 #### Education
 
@@ -29,13 +31,13 @@ B.Sc., Computer Science, Peking University, Sep 2013 – Jul 2017.
 
 #### Experience
 
-Postdoctoral Researcher, Purdue University, Jul 2025 – present.\\
+Postdoctoral Researcher, Purdue University, Aug 2025 – Aug 2026.\\
 Applied Scientist Intern, Amazon, May 2024 – Sep 2024 & Mar 2025 – Jun 2025.\\
 Software Engineer, Megvii (Face++), Jul 2017 – Jul 2018.
 
 #### Research Interests
 
-Formal Methods; Formal Verification; Property-Based Testing; Programming Languages; Distributed Systems; AI for Formal Methods
+Formal Methods; Programming Languages; AI for Proof; Property-Based Testing
 `,
 
    // Venue badge colors (reuse the matching span style when adding papers):
@@ -59,14 +61,14 @@ Formal Methods; Formal Verification; Property-Based Testing; Programming Languag
    //   Line 2: authors — highlight your name with <span class="author-self">Zhe Zhou</span>
    "publications": `#### Journal & Conference Papers
 
-1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">ASE 2026</span> **Adaptive Proof Refinement with LLM-Guided Strategy Selection.** [[Full Version]](https://arxiv.org/abs/2510.25103)<br>
-   Minghai Lu, <span class="author-self">Zhe Zhou</span>, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.<br>
-   <span style="color:gray;">To appear</span>
+\\* denotes corresponding author.
+
+1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">ASE 2026</span> **Adaptive Proof Refinement with LLM-Guided Strategy Selection.** [[DOI]](https://doi.org/10.1145/3832783.3834382) [[Full Version]](https://arxiv.org/abs/2510.25103)<br>
+   Minghai Lu, <span class="author-self">Zhe Zhou*</span>, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.
 
 1. <span style="background:#f3e8fd;color:#7c3aed;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">JFP 2026</span> **Polymorphic Coverage Types.** [[DOI]](https://doi.org/10.46298/jfp.17755) [[Full Version]](https://arxiv.org/pdf/2304.03393)<br>
-   <span class="author-self">Zhe Zhou</span>, Benjamin Delaware, and Suresh Jagannathan.<br>
-   <span style="color:gray;">Extended version of *Covering All the Bases: Type-Based Verification of Test Input Generators* (PLDI 2023).</span><br>
-   <span style="color:gray;">To appear</span>
+   <span class="author-self">Zhe Zhou</span>, Ashish Mishra, Benjamin Delaware, and Suresh Jagannathan.<br>
+   <span style="color:gray;">Extended version of *Covering All the Bases: Type-Based Verification of Test Input Generators* (PLDI 2023).</span>
 
 1. <span style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">PLDI 2026</span> **Trace-Guided Synthesis of Effectful Test Generators.** [[DOI]](https://doi.org/10.1145/3808264) [[Full Version]](https://arxiv.org/abs/2604.04345) [[Artifact]](https://zenodo.org/records/19076511)<br>
    <span class="author-self">Zhe Zhou</span>, Ankush Desai, Benjamin Delaware, and Suresh Jagannathan.

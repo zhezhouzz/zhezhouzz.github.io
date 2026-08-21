@@ -1,8 +1,10 @@
-#### Preprint
-
-- **Z. Zhou**, D. Xie, M. Lu, S. Jia, B. Delaware, and T. Zhang. Adaptive Proof Refinement with LLM-Guided Strategy Selection. **Under Review** [[Preprint]](https://arxiv.org/abs/2510.25103)
-
 #### Published
+
+\* denotes corresponding author.
+
+- M. Lu, **Z. Zhou**\*, D. Xie, S. Jia, B. Delaware, and T. Zhang (2026). Adaptive Proof Refinement with LLM-Guided Strategy Selection. **ASE 2026** IEEE/ACM International Conference on Automated Software Engineering. [[DOI]](https://doi.org/10.1145/3832783.3834382) [[Full Version]](https://arxiv.org/abs/2510.25103)
+
+- **Z. Zhou**, A. Mishra, B. Delaware, and S. Jagannathan (2026). Polymorphic Coverage Types. **JFP 2026** Journal of Functional Programming, Volume 36. [[DOI]](https://doi.org/10.46298/jfp.17755) [[Full Version]](https://arxiv.org/pdf/2304.03393)
 
 - **Z. Zhou**, A. Desai, B. Delaware, and S. Jagannathan (2026). Trace-Guided Synthesis of Effectful Test Generators. **PLDI 2026** ACM SIGPLAN Conference on Programming Language Design and Implementation. [[DOI]](https://doi.org/10.1145/3808264) [[Full Version]](https://arxiv.org/abs/2604.04345) [[Artifact]](https://zenodo.org/records/19076511)
 
