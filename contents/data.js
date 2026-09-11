@@ -22,7 +22,7 @@ Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/Zhe_CV_2026_08.pdf).
 #### Contact
 
 - **Email:** zhouzhe956[at]pku.edu.cn
-- **Office:** TBD, Peking University
+- **Office:** Room 1434, Science Building # 1, Yanyuan Campus
 
 #### Education
 
