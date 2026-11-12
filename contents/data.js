@@ -64,9 +64,9 @@ Formal Methods; Programming Languages; AI for Proof; Property-Based Testing
 
 \\* denotes corresponding author.
 
-1. <span id="pub-1" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">POPL 2027</span> **Context Types: Bunched Modalities for Unifying Safety and Reachability.**<br>
+1. <span id="pub-1" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">POPL 2027</span> **Context Types: Bunched Modalities for Unifying Safety and Reachability.** [[Full Version]](https://arxiv.org/pdf/2611.13471)<br>
    <span class="author-self">Zhe Zhou</span>, Benjamin Delaware, and Suresh Jagannathan.<br>
-   <span style="color:gray;">Conditional Accept</span>
+   <span style="color:gray;">To appear</span>
 
 1. <span id="pub-2" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">ASE 2026</span> **Adaptive Proof Refinement with LLM-Guided Strategy Selection.** [[DOI]](https://doi.org/10.1145/3832783.3834382) [[Full Version]](https://arxiv.org/abs/2510.25103)<br>
    Minghai Lu, <span class="author-self">Zhe Zhou*</span>, Danning Xie, Songlin Jia, Benjamin Delaware, and Tianyi Zhang.
