@@ -64,7 +64,7 @@ Formal Methods; Programming Languages; AI for Proof; Property-Based Testing
 
 \\* denotes corresponding author.
 
-1. <span id="pub-1" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">POPL 2027</span> **Context Types: Bunched Modalities for Unifying Safety and Reachability.** [[Full Version]](https://arxiv.org/pdf/2611.13471)<br>
+1. <span id="pub-1" style="background:#e8f0fe;color:#1a73e8;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:0.88em;">POPL 2027</span> **Context Types: Bunched Modalities for Unifying Safety and Reachability.** [[Full Version]](https://arxiv.org/abs/2611.13471)<br>
    <span class="author-self">Zhe Zhou</span>, Benjamin Delaware, and Suresh Jagannathan.
    <!-- <br><span style="color:gray;">Conditional Accept</span> -->
 
