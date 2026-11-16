@@ -15,7 +15,13 @@ In Fall 2026, I joined the Institute of Software, School of Computer Science, Pe
 
 I am looking for motivated Ph.D. students interested in formal methods, programming languages, AI for proof, and property-based testing. Prospective students are warmly encouraged to contact me.
 
-My research focuses on formal methods, programming languages, AI for proof, and property-based testing. My current work follows three main threads. The first develops new verification techniques, including under-approximated styles of verification, trace-based verification, and other type-based verification methods<sup>[<a href="#pub-8">8</a>,<a href="#pub-7">7</a>,<a href="#pub-6">6</a>,<a href="#pub-4">4</a>,<a href="#pub-3">3</a>]</sup>. The second explores AI for program verification, with an emphasis on repository-level verification of large-scale systems software such as operating systems, distributed systems, and software written in Rust and C<sup>[<a href="#pub-9">9</a>,<a href="#pub-2">2</a>]</sup>. The third studies how to make property-based testing more realistic, automated, and intelligent, especially through better support for test generators<sup>[<a href="#pub-8">8</a>,<a href="#pub-5">5</a>,<a href="#pub-4">4</a>,<a href="#pub-3">3</a>]</sup>.
+My research focuses on formal methods, programming languages, AI for proof, and property-based testing. My goal is to make formal verification practical and scalable for real-world software systems, supporting a workflow in which humans describe specifications, AI generates programs, and verification tools check correctness. I combine programming language theory and automated reasoning to express complex program behaviors, reason about systems with hidden implementation details, and reduce the effort of writing and maintaining proofs. My current work follows three main threads.
+
+First, I develop new verification theories and methods that combine trace-based verification, under-approximate reasoning, and type systems to unify reasoning about safety, incorrectness, and coverage<sup>[<a href="#pub-1">1</a>,<a href="#pub-8">8</a>,<a href="#pub-7">7</a>,<a href="#pub-6">6</a>,<a href="#pub-4">4</a>,<a href="#pub-3">3</a>]</sup>.
+
+Second, I use AI for specification inference and proof generation to reduce the cost of verifying large-scale systems software and ensure that specifications accurately express user intent<sup>[<a href="#pub-9">9</a>,<a href="#pub-2">2</a>]</sup>.
+
+Third, I make property-based testing more practical and automated through test generator verification, synthesis, and repair, and interactive testing of stateful and distributed systems<sup>[<a href="#pub-8">8</a>,<a href="#pub-5">5</a>,<a href="#pub-4">4</a>,<a href="#pub-3">3</a>]</sup>.
 
 Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/Zhe_CV_2026_11.pdf).
 
