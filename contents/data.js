@@ -112,6 +112,22 @@ Formal Methods; Programming Languages; AI for Proof; Property-Based Testing
    *Formal Methods for Incorrectness*, 2024.
 `,
 
+   "news": `- **Nov 2026:** Released [Grant Limit Checker (限项检查器)](https://zhezhouzz.github.io/grant-limit-checker/), a browser-based tool for checking research grant application limits using rules formalized in Rocq.
+
+- **Nov 2026:** Our paper [Context Types: Bunched Modalities for Unifying Safety and Reachability](#pub-1) has been accepted at **POPL 2027**! [Full Version](https://arxiv.org/abs/2611.13471)
+
+- **Nov 2026:** I am serving on the program committees of **PLDI 2027** and **TACAS 2027**.
+
+- **Sep 2026:** I joined the Institute of Software, School of Computer Science, **Peking University** as a tenure-track assistant professor.
+`,
+
+   "tools": `#### [Grant Limit Checker (限项检查器)](https://zhezhouzz.github.io/grant-limit-checker/)
+
+A tool for checking research grant application and participation limits in China, with rules formalized in Rocq and an OCaml checker extracted from the formal definitions running in the browser. The tool also provides a view of the formal model. This unofficial, early version covers a subset of the rules, including NSFC limits and selected cross-agency limits involving national science and technology programs.
+
+[Open Tool](https://zhezhouzz.github.io/grant-limit-checker/) · [Source Code](https://github.com/zhezhouzz/grant-limit-checker)
+`,
+
    "awards": `- Maurice H. Halstead Memorial Award, Purdue University, 2025.
 
 - Distinguished Paper Award, PLDI 2023.
