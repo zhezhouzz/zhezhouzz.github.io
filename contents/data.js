@@ -17,7 +17,7 @@ I am looking for motivated Ph.D. students interested in formal methods, programm
 
 My research focuses on formal methods, programming languages, AI for proof, and property-based testing. My current work follows three main threads. The first develops new verification techniques, including under-approximated styles of verification, trace-based verification, and other type-based verification methods<sup>[<a href="#pub-8">8</a>,<a href="#pub-7">7</a>,<a href="#pub-6">6</a>,<a href="#pub-4">4</a>,<a href="#pub-3">3</a>]</sup>. The second explores AI for program verification, with an emphasis on repository-level verification of large-scale systems software such as operating systems, distributed systems, and software written in Rust and C<sup>[<a href="#pub-9">9</a>,<a href="#pub-2">2</a>]</sup>. The third studies how to make property-based testing more realistic, automated, and intelligent, especially through better support for test generators<sup>[<a href="#pub-8">8</a>,<a href="#pub-5">5</a>,<a href="#pub-4">4</a>,<a href="#pub-3">3</a>]</sup>.
 
-Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/Zhe_CV_2026_08.pdf).
+Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/Zhe_CV_2026_11.pdf).
 
 #### Contact
 
@@ -26,7 +26,7 @@ Here is my [CV](https://github.com/zhezhouzz/CV/blob/main/Zhe_CV_2026_08.pdf).
 
 #### Education
 
-Ph.D., Computer Science, Purdue University, Aug 2018 – Jul 2025.\\
+Ph.D., Computer Science, Purdue University, Aug 2018 – Aug 2025.\\
 B.Sc., Computer Science, Peking University, Sep 2013 – Jul 2017.
 
 #### Experience
